@@ -1,6 +1,8 @@
 package study.khs.api.message.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 import study.khs.api.message.domain.Message;
 import study.khs.api.message.repository.MessageRepository;
 
